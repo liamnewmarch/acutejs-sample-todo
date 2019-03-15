@@ -1,0 +1,35 @@
+{
+  "name": "@acutejs/template-basic",
+  "version": "0.1.0",
+  "description": "A simple Acute setup for quick prototyping.",
+  "main": "rollup.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamnewmarch/acutejs-template-basic.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liamnewmarch/acutejs-template-basic/issues"
+  },
+  "homepage": "https://github.com/liamnewmarch/acutejs-template-basic#readme",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "build:watch": "rollup -w -c rollup.config.js",
+    "serve": "http-server public",
+    "start": "concurrently npm:build:watch npm:serve"
+  },
+  "dependencies": {
+    "@acutejs/core": "^0.1.0",
+    "@acutejs/plugin-lit-html": "0.0.1",
+    "@acutejs/plugin-redux": "0.0.1",
+    "concurrently": "^4.1.0",
+    "http-server": "^0.11.1",
+    "lit-html": "^1.0.0",
+    "redux": "^4.0.1",
+    "rollup": "^1.6.0",
+    "rollup-plugin-node-resolve": "^4.0.1"
+  },
+  "devDependencies": {}
+}

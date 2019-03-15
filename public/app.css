@@ -1,0 +1,11 @@
+html {
+  color: #333;
+  font: 18px sans-serif;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0 auto;
+  padding: 2em;
+}
