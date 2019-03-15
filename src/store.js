@@ -1,14 +1,5 @@
-import { createStore, combineReducers } from 'redux';
+import { createStore } from 'redux';
 
-const time = (state = Date.now(), action) => {
-  switch (action.type) {
-    case 'UPDATE_TIME':
-      return Date.now();
-    default:
-      return state;
-  }
-};
+import reducers from './reducers';
 
-export default createStore(combineReducers({
-  time,
-}));
+export default createStore(reducers);

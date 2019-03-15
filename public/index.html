@@ -5,11 +5,16 @@
     <title> Hello, world </title>
     <meta name="viewport" content="initial-scale=1">
     <link href="app.css" rel="stylesheet">
-    <script> window.process = { env: { NODE_ENV: 'production' }};
-</script>
     <script async src="app.js"></script>
   </head>
   <body>
-    <hello-world title="Hello, world"></hello-world>
+    <main>
+      <h1>Acute to-do list</h1>
+      <todo-list></todo-list>
+      <todo-form></todo-form>
+      <noscript>
+        <p>Unfortunately this app requires JavaScript.</p>
+      </noscript>
+    </main>
   </body>
 </html>

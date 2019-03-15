@@ -1,0 +1,26 @@
+:host(:not([hidden])) {
+  background-color: #fff;
+  border: .05rem solid #eee;
+  border-radius: .1rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+:host([completed]) {
+  opacity: .5;
+}
+
+:host([completed]) slot {
+  text-decoration: line-through;
+}
+
+
+label {
+  align-items: baseline;
+  display: flex;
+  padding: 1rem;
+}
+
+input {
+  margin-right: .5rem;
+}

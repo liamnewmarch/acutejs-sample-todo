@@ -1,0 +1,39 @@
+:host(:not([hidden])) {
+  border-top: .05rem solid #eee;
+  display: block;
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem 1rem;
+}
+
+input {
+  border: .05rem solid #eee;
+  border-radius: .1rem;
+  box-shadow: inset 0 .05rem .1rem #0001;
+  flex-grow: 1;
+  font: inherit;
+  padding: 1em;
+  margin: 0 1rem 0 0;
+}
+
+button {
+  background-color: #888;
+  border: none;
+  border-radius: .1rem;
+  color: #fff;
+  box-shadow: 0 .05rem .1rem #0001;
+  font: inherit;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+@media (min-width: 30rem) {
+  button {
+    padding: 1rem 2em;
+  }
+}

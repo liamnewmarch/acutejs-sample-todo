@@ -1,0 +1,13 @@
+:host(:not([hidden])) {
+  display: block;
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  color: #c44;
+  font: inherit;
+  padding: 1rem;
+  margin-bottom: -1rem;
+}

@@ -18,18 +18,27 @@
     "build": "rollup -c rollup.config.js",
     "build:watch": "rollup -w -c rollup.config.js",
     "serve": "http-server public",
-    "start": "concurrently npm:build:watch npm:serve"
+    "start": "concurrently npm:build:watch npm:serve",
+    "prod:build": "NODE_ENV=production npm run build",
+    "prod:start": "NODE_ENV=production npm run start"
   },
   "dependencies": {
     "@acutejs/core": "^0.1.0",
-    "@acutejs/plugin-lit-html": "0.0.1",
-    "@acutejs/plugin-redux": "0.0.1",
+    "@acutejs/plugin-lit-html": "^0.0.1",
+    "@acutejs/plugin-redux": "^0.0.1",
     "concurrently": "^4.1.0",
     "http-server": "^0.11.1",
     "lit-html": "^1.0.0",
     "redux": "^4.0.1",
     "rollup": "^1.6.0",
-    "rollup-plugin-node-resolve": "^4.0.1"
+    "rollup-plugin-minify-html-literals": "^1.2.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^4.0.1",
+    "rollup-plugin-postcss": "^2.0.3",
+    "rollup-plugin-terser": "^4.0.4"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^5.15.1",
+    "eslint-config-google": "^0.12.0"
+  }
 }
