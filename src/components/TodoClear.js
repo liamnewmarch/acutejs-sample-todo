@@ -10,7 +10,7 @@ const clear = () => {
 };
 
 export default {
-  render(...args) {
+  render() {
     return html`
       <style>${css}</style>
       <button @click=${clear} type="button"> Clear done </a>

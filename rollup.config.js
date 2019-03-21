@@ -1,6 +1,6 @@
 import postcss from 'rollup-plugin-postcss';
 import minifyHTML from 'rollup-plugin-minify-html-literals';
-import nodeGlobals from 'rollup-plugin-node-globals';
+import replace from 'rollup-plugin-replace';
 import resolve from 'rollup-plugin-node-resolve';
 import { terser } from 'rollup-plugin-terser';
 
@@ -9,12 +9,8 @@ const plugins = [
     minimize: true,
   }),
   resolve(),
-  nodeGlobals({
-    global: false,
-    buffer: false,
-    dirname: false,
-    filename: false,
-    baseDir: false,
+  replace({
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV),
   }),
 ];
 

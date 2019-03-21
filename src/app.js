@@ -9,8 +9,8 @@ import TodoItem from './components/TodoItem.js';
 import TodoList from './components/TodoList.js';
 
 import store from './store.js';
-
 import { addTodo } from './actions';
+
 store.dispatch(addTodo('Cut the grass'));
 store.dispatch(addTodo('Take out the bins'));
 store.dispatch(addTodo('Go to the shop'));
