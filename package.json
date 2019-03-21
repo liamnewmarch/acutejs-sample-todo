@@ -1,6 +1,6 @@
 {
   "name": "@acutejs/template-basic",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A simple Acute setup for quick prototyping.",
   "main": "rollup.config.js",
   "repository": {
