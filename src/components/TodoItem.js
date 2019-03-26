@@ -1,8 +1,6 @@
 import { html } from 'lit-html';
-
 import store from '../store';
 import { toggleTodo } from '../actions';
-
 import css from './TodoItem.css';
 
 export default {

@@ -1,8 +1,6 @@
 import { html } from 'lit-html';
-
 import { clearCompletedTodos } from '../actions';
 import store from '../store.js';
-
 import css from './TodoClear.css';
 
 const clear = () => {

@@ -1,8 +1,6 @@
 import { html } from 'lit-html';
-
 import { addTodo } from '../actions';
 import store from '../store.js';
-
 import css from './TodoForm.css';
 
 const example = 'Add a task…';

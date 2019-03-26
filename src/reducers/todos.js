@@ -12,9 +12,10 @@ export default (state = [], action) => {
     case 'CLEAR_TODO':
       return state.filter(todo => !todo.completed);
     case 'TOGGLE_TODO':
-      return state.map(todo =>
-        todo.id === action.id ? { ...todo, completed: !todo.completed } : todo
-      );
+      return state.map(todo => todo.id === action.id ? {
+        ...todo,
+        completed: !todo.completed,
+      } : todo);
     default:
       return state;
   }

@@ -1,8 +1,6 @@
 import { html } from 'lit-html';
 import { repeat } from 'lit-html/directives/repeat';
-
 import store from '../store.js';
-
 import css from './TodoList.css';
 
 const complete = 'Hooray, you have no tasks to do.';
