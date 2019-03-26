@@ -23,7 +23,7 @@
     "start": "concurrently npm:build:watch npm:serve"
   },
   "dependencies": {
-    "@acutejs/core": "^0.2.0",
+    "@acutejs/core": "^0.2.1",
     "@acutejs/plugin-lit-html": "^0.1.0",
     "@acutejs/plugin-redux": "^0.0.1",
     "concurrently": "^4.1.0",
