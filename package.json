@@ -5,15 +5,15 @@
   "main": "rollup.config.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/liamnewmarch/acutejs-template-basic.git"
+    "url": "git+https://github.com/liamnewmarch/acutejs-sample-todo.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/liamnewmarch/acutejs-template-basic/issues"
+    "url": "https://github.com/liamnewmarch/acutejs-sample-todo/issues"
   },
-  "homepage": "https://github.com/liamnewmarch/acutejs-template-basic#readme",
+  "homepage": "https://github.com/liamnewmarch/acutejs-sample-todo#readme",
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "build:prod": "NODE_ENV=production rollup -c rollup.config.js",
