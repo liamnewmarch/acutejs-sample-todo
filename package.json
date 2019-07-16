@@ -1,6 +1,6 @@
 {
   "name": "@acutejs/sample-todo",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "description": "A simple Acute setup for quick prototyping.",
   "main": "rollup.config.js",
   "repository": {
@@ -26,18 +26,18 @@
     "@acutejs/core": "^0.2.1",
     "@acutejs/plugin-lit-html": "^0.2.0",
     "@acutejs/plugin-redux": "^0.0.1",
-    "concurrently": "^4.1.0",
-    "lit-html": "^1.1.0",
-    "redux": "^4.0.1",
-    "rollup": "^1.15.6",
+    "concurrently": "^4.1.1",
+    "lit-html": "^1.1.1",
+    "redux": "^4.0.4",
+    "rollup": "^1.17.0",
     "rollup-plugin-minify-html-literals": "^1.2.2",
-    "rollup-plugin-node-resolve": "^5.0.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-replace": "^2.2.0",
-    "rollup-plugin-terser": "^5.0.0"
+    "rollup-plugin-terser": "^5.1.1"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
+    "eslint": "^6.0.1",
     "eslint-config-google": "^0.13.0"
   }
 }
