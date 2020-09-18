@@ -1,6 +1,6 @@
 {
   "name": "@acutejs/sample-todo",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "A simple Acute setup for quick prototyping.",
   "type": "module",
   "main": "rollup.config.js",
